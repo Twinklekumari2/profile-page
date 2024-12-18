@@ -208,7 +208,7 @@ p{
 }
 
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:600px) {
     .container{
         width: 100%;
     }
@@ -216,6 +216,62 @@ p{
         overflow:scroll;
         scrollbar-width: none;
         grid-gap: 2rem;
+    }
+    .resource-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 3px;
+    }
+    .academic , .upload , .archieves{
+        width: 100%;
+        margin: 3px;
+        /* height: ; */
+    }
+    .UWS-heading{
+    font-size: 2vw;
+    margin: auto;
+    }
+    .UWS-heading h3{
+        letter-spacing: 1px;
+    }
+    .home-setting{
+        margin: auto;
+    }
+    .prsnl-info , .info , .workshop-info , .role-phn-email{
+        display: flex;
+        flex-direction: column;
+    }
+    .attendance , .attendent , .left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 3px;
+    }
+}
+
+@media only screen and (max-width:800px) and (min-width:600px) {
+    .container{
+        width: 100%;
+    }
+    .academic-container , .upload-container{
+        overflow:scroll;
+        scrollbar-width: none;
+        grid-gap: 2rem;
+    }
+    .resource-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 3px;
+        justify-content: center;
+    }
+
+    .academic , .upload , .archieves{
+        width: 50%;
+        /* margin: 3px; */
+        margin: 3px auto;
+        /* height: ; */
     }
     
 }
