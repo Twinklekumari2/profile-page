@@ -250,9 +250,9 @@ p{
     }
 }
 
-@media only screen and (max-width:800px) and (min-width:600px) {
+@media only screen and (max-width:900px) and (min-width:600px) {
     .container{
-        width: 100%;
+        width: 90%;
     }
     .academic-container , .upload-container{
         overflow:scroll;
@@ -272,6 +272,18 @@ p{
         /* margin: 3px; */
         margin: 3px auto;
         /* height: ; */
+    }
+    
+}
+
+@media only screen and (min-width:900px) and (max-width:1300px) {
+    .container{
+        width: 90%;
+    }
+    .academic-container , .upload-container{
+        overflow:scroll;
+        scrollbar-width: none;
+        grid-gap: 2rem;
     }
     
 }
